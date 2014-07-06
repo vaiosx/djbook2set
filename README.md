@@ -16,13 +16,13 @@ $  python translator.py create
 ```
 или используем готовую из html_doc
 
-Создаем docset, используем doc2dash
+Генерим docset
 ```
 $  pip install doc2dash
 doc2dash -A <путь_к_html>
 ```
 
-Используем мой скрипт
+Создаем индексы
 ```
 $  python djbook2set.py
 ```
