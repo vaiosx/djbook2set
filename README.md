@@ -1,4 +1,4 @@
-Djbook.ru >> docset for Dash
+Djbook.ru >> gen docset for Dash
 ======
 
 Этот скрипт для тех кто хочет добавить себе в Dash русскую документацию по Django
@@ -9,11 +9,12 @@ Djbook.ru >> docset for Dash
 Описание
 ======
 
-Создаем HTML документацию с помощью:
+Создаем HTML(Djbook.ru) документацию с помощью:
 https://github.com/Alerion/django_documentation
 ```
 $  python translator.py create
 ```
+или используем готовую из html_doc
 
 Создаем docset, используем doc2dash
 ```
